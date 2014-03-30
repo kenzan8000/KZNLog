@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>197E5359-17C4-4166-A058-2AB8E2F36FA9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KZNLogDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>71F3CD7D-6BB3-4CA1-B05B-E46FC5795FEB</key>
+		<string>https://github.com/kenzan8000/KZNLog.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KZNLogDemo/KZNLogDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>71F3CD7D-6BB3-4CA1-B05B-E46FC5795FEB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kenzan8000/KZNLog.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>71F3CD7D-6BB3-4CA1-B05B-E46FC5795FEB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>71F3CD7D-6BB3-4CA1-B05B-E46FC5795FEB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KZNLog</string>
+		</dict>
+	</array>
+</dict>
+</plist>
