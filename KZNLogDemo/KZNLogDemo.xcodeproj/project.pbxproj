@@ -21,6 +21,7 @@
 		E646AC6A18E2853E009245D9 /* KZNLogDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E646AC6918E2853E009245D9 /* KZNLogDemoTests.m */; };
 		E646AC7D18E2858E009245D9 /* KZNLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = E646AC7918E2858E009245D9 /* KZNLogView.m */; };
 		E646AC8018E6F3E4009245D9 /* KZNLogWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E646AC7F18E6F3E4009245D9 /* KZNLogWebView.m */; };
+		E694009218E7A2C300E65371 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E694009118E7A2C300E65371 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E646AC7918E2858E009245D9 /* KZNLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZNLogView.m; sourceTree = "<group>"; };
 		E646AC7E18E6F3E4009245D9 /* KZNLogWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZNLogWebView.h; sourceTree = "<group>"; };
 		E646AC7F18E6F3E4009245D9 /* KZNLogWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZNLogWebView.m; sourceTree = "<group>"; };
+		E694009118E7A2C300E65371 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = WebView/index.html; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		E646AC4A18E2853E009245D9 /* KZNLogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E694009118E7A2C300E65371 /* index.html */,
 				E646AC5318E2853E009245D9 /* AppDelegate.h */,
 				E646AC5418E2853E009245D9 /* AppDelegate.m */,
 				E646AC5618E2853E009245D9 /* Images.xcassets */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E694009218E7A2C300E65371 /* index.html in Resources */,
 				E646AC4F18E2853E009245D9 /* InfoPlist.strings in Resources */,
 				E646AC5718E2853E009245D9 /* Images.xcassets in Resources */,
 			);
@@ -460,6 +464,7 @@
 				E646AC6F18E2853E009245D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E646AC7018E2853E009245D9 /* Build configuration list for PBXNativeTarget "KZNLogDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				E646AC7218E2853E009245D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

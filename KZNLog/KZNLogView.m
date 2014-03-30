@@ -167,7 +167,7 @@ static const CGFloat kKZNLogViewBarHeight = 24.0f;
     NSString *currentLog = self.terminalView.text;
     [self.terminalView setText:
         [NSString stringWithFormat:@"%@%@",
-            currentLog, string
+            string, currentLog
         ]
     ];
 }

@@ -47,8 +47,8 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
 #ifdef DEBUG_KZNLOG_WEBVIEW
     // display console.log
     NSString *urlString = [[[request URL] absoluteString] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    if ([urlString hasPrefix:@"KZNLogWebView:"]) {
-        KZNSimpleLog(@"%@", [[urlString componentsSeparatedByString:@":#iOS#"] objectAtIndex:1]);
+    if ([urlString hasPrefix:@"kznlogwebview:"]) {
+        KZNSimpleLog(@"console.log\n\nlog:\n%@", [[urlString componentsSeparatedByString:@":#iOS#"] objectAtIndex:1]);
         return NO;
     }
 #endif
@@ -79,7 +79,7 @@ didFailLoadWithError:(NSError *)error
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
 #ifdef DEBUG_KZNLOG_WEBVIEW
-    NSString *JavaScriptString = @"console.log = function(log) { var iframe = document.createElement('IFRAME'); iframe.setAttribute('src', 'KZNLogWebView:#iOS#' + log); document.documentElement.appendChild(iframe); iframe.parentNode.removeChild(iframe); iframe = null; }";
+    NSString *JavaScriptString = @"console.log = function(log) { var iframe = document.createElement('IFRAME'); iframe.setAttribute('src', 'kznlogwebview:#iOS#' + log); document.documentElement.appendChild(iframe); iframe.parentNode.removeChild(iframe); iframe = null; }";
     [self stringByEvaluatingJavaScriptFromString:JavaScriptString];
 #endif
     if (self.kznLogWebViewDelegate == nil) { return; }

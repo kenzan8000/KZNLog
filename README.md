@@ -25,6 +25,8 @@ Simply add the files in the KZNLog directory to your project.
 #define DEBUG_KZNLOG
 #define KZNDemoLog KZNLog
 
+InitKZNLog;
+
 KZNDemoLog(@"KZNLog Demo: %@", @"hoge");
 ```
 

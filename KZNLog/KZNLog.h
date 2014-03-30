@@ -6,6 +6,8 @@
 
 
 #ifdef DEBUG_KZNLOG
+#   define InitKZNLog [KZNLogView sharedLogView]
+
 
 #   define KZNLog(fmt, ...)\
     {\
